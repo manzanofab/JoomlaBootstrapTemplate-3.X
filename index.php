@@ -19,7 +19,7 @@ JHtmlBootstrap::loadCss($includeMaincss = true);
 <body>
 <header class="row-fluid">
 <div class="span4">
-	<a href="/"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/logo.png" alt="KinetECO, Inc., click for home. " class="pull-left visible-tablet visible-desktop" /><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/mobile-logo.png" alt="KinetECO, Inc., click for home." class="visible-phone" /></a>
+	<a href="/"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/logo.png" alt="Click for home. " class="pull-left visible-tablet visible-desktop" /><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/mobile-logo.png" alt="click for home." class="visible-phone" /></a>
 </div>
     <div class="span8">
 <jdoc:include type="modules" name="search" style="html5" />
